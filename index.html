@@ -1,47 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/sidebar.css" />
+    <link rel="stylesheet" href="./style/main.css" />
     <link
       href="https://api.fontshare.com/v2/css?f[]=red-hat-display@400,700&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="outer-grid">
       <!-- start sidebar -->
       <div class="sidebar">
-        <img class="large-svg" src="img/dashboard.svg" alt="dashboard" />
-        <h1>Dashboard</h1>
+        <div class="sidebar__inner-grid">
+          <img class="large-svg" src="img/dashboard.svg" alt="dashboard" />
+          <h1>Dashboard</h1>
+        </div>
 
-        <img class="svg" src="img/home.svg" alt="home" />
-        <h2>Home</h2>
+        <div class="sidebar__inner-grid">
+          <img class="svg" src="img/home.svg" alt="home" />
+          <h2>Home</h2>
+        </div>
 
-        <img class="svg" src="img/profile.svg" alt="profile" />
-        <h2>Profile</h2>
-
-        <img class="svg" src="img/messages.svg" alt="messages" />
-        <h2>Messages</h2>
-
-        <img class="svg" src="img/history.svg" alt="history" />
-        <h2>History</h2>
-
-        <img class="svg" src="img/tasks.svg" alt="tasks" />
-        <h2>Tasks</h2>
-
-        <img class="svg" src="img/communities.svg" alt="communities" />
-        <h2>Communities</h2>
-
-        <img class="svg" src="img/settings.svg" alt="settings" />
-        <h2>Settings</h2>
-
-        <img class="svg" src="img/support.svg" alt="support" />
-        <h2>Support</h2>
-
-        <img class="svg" src="img/privacy.svg" alt="privacy" />
-        <h2>Privacy</h2>
+        <div class="sidebar__inner-grid">
+          <img class="svg" src="img/profile.svg" alt="profile" />
+          <h2>Profile</h2>
+        </div>
+        <div class="sidebar__inner-grid">
+          <img class="svg" src="img/messages.svg" alt="messages" />
+          <h2>Messages</h2>
+        </div>
+        <div class="sidebar__inner-grid">
+          <img class="svg" src="img/history.svg" alt="history" />
+          <h2>History</h2>
+        </div>
+        <div class="sidebar__inner-grid">
+          <img class="svg" src="img/tasks.svg" alt="tasks" />
+          <h2>Tasks</h2>
+        </div>
+        <div class="sidebar__inner-grid">
+          <img class="svg" src="img/communities.svg" alt="communities" />
+          <h2>Communities</h2>
+        </div>
+        <div class="sidebar__inner-grid">
+          <img class="svg" src="img/settings.svg" alt="settings" />
+          <h2>Settings</h2>
+        </div>
+        <div class="sidebar__inner-grid">
+          <img class="svg" src="img/support.svg" alt="support" />
+          <h2>Support</h2>
+        </div>
+        <div class="sidebar__inner-grid">
+          <img class="svg" src="img/privacy.svg" alt="privacy" />
+          <h2>Privacy</h2>
+        </div>
       </div>
       <!-- end sidebar -->
       <!-- start header -->
@@ -151,6 +168,7 @@
             </div>
           </div>
         </div>
+        <!-- end left__main -->
         <div class="right__main">
           <h3>Announcements</h3>
           <div class="announcements right-card">

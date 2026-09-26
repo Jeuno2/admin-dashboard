@@ -1,0 +1,33 @@
+.sidebar {
+  grid-column: 1 / 2;
+  grid-row: 1 / -1;
+  background-color: rgb(72, 193, 159);
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: 1fr;
+  letter-spacing: 0.2rem;
+  align-items: center;
+}
+
+.sidebar > img {
+  align-items: end;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.sidebar > h1:hover,
+h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sidebar .large-svg {
+  margin-right: 1rem;
+}
+
+.sidebar__inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-content: center;
+}
